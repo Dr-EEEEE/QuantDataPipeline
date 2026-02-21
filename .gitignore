@@ -1,0 +1,21 @@
+# Python environment and cache
+__pycache__/
+*.pyc
+
+# Data Storage
+# Exclude raw and processed datasets while preserving folder structure
+data/bronze/*
+data/silver/*
+data/gold/*
+
+# Data Integrity Logs
+# Explicitly allow the audit proof to be tracked for documentation
+!data/cleaning_audit_proof.csv
+
+# Visualization and Reporting
+# Allow strategy plots to be tracked for README visual verification
+# Ignore text logs and execution reports
+reports/*.txt
+
+# IDE Configuration
+.idea/
