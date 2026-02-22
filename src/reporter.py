@@ -1,5 +1,3 @@
-# reporter.py 4:48 PM Feb 21, 2026
-
 import os
 import sys
 from pathlib import Path

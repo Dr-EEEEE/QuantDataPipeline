@@ -1,5 +1,3 @@
-# test_pipeline.py 4:45 PM Feb 21, 2026
-
 import os
 import sys
 from pathlib import Path

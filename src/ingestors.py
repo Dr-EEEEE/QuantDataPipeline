@@ -1,5 +1,3 @@
-# ingestors.py 4:22 PM Feb 21, 2026
-
 import os
 import sys
 from pathlib import Path

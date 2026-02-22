@@ -1,5 +1,3 @@
-# generate_cleaning_proof.py 4:55 PM Feb 21, 2026
-
 import sys
 from pathlib import Path
 import pandas as pd

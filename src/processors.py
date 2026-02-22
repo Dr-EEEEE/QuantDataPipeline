@@ -1,5 +1,3 @@
-# processors.py 4:32 PM Feb 21, 2026
-
 import os
 import sys
 from pathlib import Path

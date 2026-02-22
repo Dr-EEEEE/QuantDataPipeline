@@ -1,5 +1,3 @@
-# visualizer.py 4:51 PM Feb 21, 2026
-
 import os
 import sys
 import shutil
