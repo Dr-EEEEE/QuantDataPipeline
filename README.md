@@ -34,7 +34,7 @@ To ensure strategy reliability, the pipeline generates a **Cleaning Proof** audi
 | 2026-02-19 | ES | 5025.50 | 5025.50 | Data Integrity Verified (100% Clean) |
 | 2026-02-20 | ES | 5028.75 | 5028.75 | Data Integrity Verified (100% Clean) |
 
-## Quantitative Strategy: SG Trend Indicator
+## Quantitative Strategy: Societe Generale Trend Indicator
 
 Once the data has been cleaned and validated, it is ready for institutional-grade research and trading. This pipeline includes the Gold layer to demonstrate that the data is primed for indicators, signals, and systematic trading models.
 
@@ -60,7 +60,7 @@ QuantDataPipeline/
 │   ├── storage.py      # DataVault I/O Logic (Parquet/Local)
 │   ├── ingestors.py    # Connectivity (YFinance, IBKR, TradeStation)
 │   ├── processors.py   # Data cleaning and validation logic
-│   ├── strategies.py   # Signal generation (SG Trend)
+│   ├── strategies.py   # Signal generation (Societe Generale Trend)
 │   ├── visualizer.py   # Technical analysis plotting
 │   └── reporter.py     # Automated execution reporting
 ├── tests/              # Integrity and Unit tests
